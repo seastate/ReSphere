@@ -1,2 +1,2 @@
 # ReSphere
-Jupyter notebooks for spheres in fluids using Reynolds numbers
+Jupyter notebooks for spheres moving in fluids, calculated using Reynolds numbers
