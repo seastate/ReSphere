@@ -18,8 +18,8 @@ We will consider two types of forces, drawn from the previous pages:
 The key question we will address is, "*How do we expect forces due to viscosity and wake momentum to increase with organism size and speed?*"
 	
 ## Forces due to wake momentum
-[](sph2) is a cartoon of the wake behind the sinking organism.
-```{figure} sphere2.png
+[](#sph2) is a cartoon of the wake behind the sinking organism.
+```{figure} Images/sphere2.png
 :label: sph2
 :width: 60%
 :align: center
@@ -47,9 +47,9 @@ In sum, $F_{mom}$ is an order of magnitude estimate of the wake momentum force o
 
 	
 ## Forces due to viscosity
-[](sph3) is a cartoon of the fluid motion to the side of the sinking organism.
+[](#sph3) is a cartoon of the fluid motion to the side of the sinking organism.
 The cartoon illustrates several features that are important to recognize before estimating the drag forces due to viscosity.
-```{figure} sphere3.png
+```{figure} Images/sphere3.png
 :label: sph3
 :width: 60%
 :align: center

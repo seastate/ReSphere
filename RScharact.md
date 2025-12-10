@@ -13,13 +13,12 @@ The idea is that factors like size and speed will have strong effects on drag, a
 If we can factor out the effects of size and speed, more subtle effects (like those of shape) will be easier to understand and quantify.
 
 ## Organismal characteristics
-[](sph1) is a cartoon of an organism moving through a fluid (in this case, sinking downwards).
+[](#sph1) is a cartoon of an organism moving through a fluid (in this case, sinking downwards).
 As it moves, it pushes aside fluid in front of itself, illustrated by the blue "streamlines" moving sideways near the underside of the organism.
 Immediately adjacent to the organism, fluid is moving with the organism (hence, added mass).
 The organism leaves a wake behind itself, of fluid that is moving nearly as fast as it is (hence, wake momentum).
 
-%![re1](sphere1.png)
-```{figure} sphere1.png
+```{figure} Images/sphere1.png
 :label: sph1
 :width: 30%
 :align: center
@@ -39,7 +38,7 @@ Analogously, we specify a **characteristic area**, ***A***.
 As with length, the exact specification of *A* is obvious for a sphere, and a little ambiguous for an oblong organism.
 In general, choosing a simple standard like the square of the characteristic length, $A = L^2$, will capture essential size effects as long as it is used consistently.
 
-We also specify a **characteristic speed**, ***U***, which in this case is clearly the sinking rate, as indicated by the blue arrow in [](sph1).
+We also specify a **characteristic speed**, ***U***, which in this case is clearly the sinking rate, as indicated by the blue arrow in [](#sph1).
 
 ## Fluid characteristics
 The drag on a moving organism depends, of course, on the characteristics of the fluid in which it is immersed.
@@ -48,8 +47,8 @@ You can open worksheet to calculate these properties for freshwater, saltwater a
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/organismal-systems/python-fluidprop/HEAD?urlpath=%2Fdoc%2Ftree%2FFluidProp)
 
-The variation of density and viscosity over a range of relevant temperatures for freshwater and saltwater with 35 ppt salinity are shown in [](props)
-```{figure} Jumars_etal1993props.png
+The variation of density and viscosity over a range of relevant temperatures for freshwater and saltwater with 35 ppt salinity are shown in [](#props)
+```{figure} Images/Jumars_etal1993props.png
 :label: props
 :width: 80%
 :align: center
@@ -62,7 +61,7 @@ These plots show the variation of density, dynamic viscosity and kinematic visco
 The density of a fluid is simply the mass of the fluid for a given volume. 
 In SI units, density is expressed in $\frac{kg}{m^3}$ (that is, kilograms per meter cubed).
 Density is a function of temperature, the concentration of solutes such as salt, and pressure.
-As an example, the bottom plot of [](props) shows the variation in density of freshwater (lower line) and 35 ppt saltwater (upper line).
+As an example, the bottom plot of [](#props) shows the variation in density of freshwater (lower line) and 35 ppt saltwater (upper line).
 This plot show that density is a slowly decreasing function of temperature. [^1]
 [^1]: The curve for freshwater ends at $0\degree C$; that is, at the freezing point of fresh water. The curve for salt water extends to lower temperatures, because its freezing point is lower.
 
